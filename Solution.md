@@ -17,23 +17,20 @@
 | 11 | No indentation | Indented the whole code properly |
 
 ## Steps Followed
-1. Opened `buggy.html` in the browser and inspected it using the Elements panel in DevTools.
+1. Opened `buggy.html` in the browser and inspected its structure (page source / Elements panel).
 2. Checked the markup with the W3C Markup Validator (validator.w3.org) and noted the errors.
 3. Fixed all errors and indented the code properly.
-4. Validated again and confirmed there were no errors.
+4. Validated `index.html` again.
+
+## Validation Result
+- **buggy.html:** the validator reported errors such as unclosed `title`, `p`, `li`, and `div` elements, a mismatched `h1`/`h2` end tag, improperly nested `strong`/`em`, a missing `alt` on `img`, and a missing `href` on `a`.
+- **index.html:** no errors or warnings after the fixes.
 
 ## Code
 - Before: [buggy.html](buggy.html)
 - After: [index.html](index.html)
 
 ## Screenshots
-
-### DevTools Elements panel (buggy page)
-
-
-![DevTools](devtools-elements.png)
-
-
 
 ### Validator result
 
